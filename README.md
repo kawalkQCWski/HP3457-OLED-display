@@ -16,8 +16,8 @@ After long thinking I had an idea... Let's use the cheapest OLED display that ha
 
 To explain the idea - here 2 pictures:
 
-<img src="https://github.com/xyphro/HP3457-OLED-display/blob/main/photos/FirstDigitWorking.jpg?raw=true" width="40%"/>
-<img src="https://github.com/xyphro/HP3457-OLED-display/blob/main/photos/OledMounting.jpg?raw=true" width="40%"/>
+<img src="https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/FirstDigitWorking.jpg?raw=true" width="40%"/>
+<img src="https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/OledMounting.jpg?raw=true" width="40%"/>
 
 # The final result:
 
@@ -54,11 +54,11 @@ And select any of the 3 below ones:
 
 - HP3457_ORIGINAL - These are the small triangles, that rely on the information printed on the frontpanel underneath the display:
 
-<img src="https://github.com/xyphro/HP3457-OLED-display/blob/main/photos/HP3457A%20triangle.jpg?raw=true" width="40%"/>
+<img src="https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/HP3457A%20triangle.jpg?raw=true" width="40%"/>
 
 - HP3457_ICONS  - Small textual labels on the OLEDS itself:
 
-<img src="https://github.com/xyphro/HP3457-OLED-display/blob/main/photos/annuciators_icons.jpg?raw=true" width="40%"/>
+<img src="https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/annuciators_icons.jpg?raw=true" width="40%"/>
 
 - HP3478_ICONS - textual labels matching the HP3478 / 3468 display
 
@@ -67,20 +67,20 @@ The software/hex folder also contains precompiled .hex images for those 3 differ
 # Programming 
 Use the following fuses for programnig the Atmega 8 
 
-<img src="https://github.com/xyphro/HP3457-OLED-display/blob/main/photos/fuses part 2.PNG?raw=true" width="40%"/>
+<img src="https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/fuses part 2.PNG?raw=true" width="40%"/>
 
 # Putting it together
 
 After soldering the PCBs and flashing the MCU, you can mount the PCB to your lovely HP3457 multimeter. The original press fit DIP socket can be directly plugged into the PCB.
 The OLED display requires a second voltage source to power the OLEDs themselfes. This can be an AC supply, but I recommend for the HP3457 to use the 5V voltage regulator in TO220 housing and connect the AC lines to pin 1 and 2, which is 12 V.
 
-<img src="https://github.com/xyphro/HP3457-OLED-display/blob/main/photos/PowerConnection.jpg?raw=true" width="40%"/>
+<img src="https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/PowerConnection.jpg?raw=true" width="40%"/>
 
 The overall current consumption @12V supply is low and only about 30mA.
 
 After mounting it looks like this from the internal side (the red supply header is unconnected here):
 
-<img src="https://github.com/xyphro/HP3457-OLED-display/blob/main/photos/DisplayInstalled_backside.jpg?raw=true" width="40%"/>
+<img src="https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/DisplayInstalled_backside.jpg?raw=true" width="40%"/>
 
 
 Enjoy your shiny new Display :-)

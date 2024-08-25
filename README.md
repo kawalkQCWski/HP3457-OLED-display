@@ -36,7 +36,7 @@ In case you want to modify the PCB yourself, feel free to do so (but share it ba
 
 The software was created using Atmel Studio 7.0 and the project can be directly opened with it for editing if desired.
 
-Don't forget to program the fuses of the ATMega8 MCU and select 8 MHz internal RC oscillator as clock source (otherwise it runs too slow with its default 1 MHz clock only).
+Don't forget to program the fuses of the ATMega8 MCU and select 8 MHz internal RC oscillator as clock source (otherwise it runs too slow with its default 1 MHz clock only).Also make sure to program brownout detection level at 2.7V. 
 
 NOTE: Ensure to buy the 0.87" variant of the OLEDS. There are also popular 0.91" variants available, but they are to wide!
 I bought my displays directly on Aliexpress: https://de.aliexpress.com/item/1005001856921229.html

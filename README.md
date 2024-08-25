@@ -64,10 +64,11 @@ And select any of the 3 below ones:
 
 
 The software/hex folder also contains precompiled .hex images for those 3 different annuciators versions.
+
 # Programming 
 Use the following fuses for programnig the Atmega 8 
 
-<img src="https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/fuses part 2.PNG?raw=true" width="40%"/>
+<img src="[https://github.com/kawalkQCWski/HP3457-OLED-display/blob/main/photos/fuses%20part%202.PNG?raw=true" width="40%"/>
 
 # Putting it together
 

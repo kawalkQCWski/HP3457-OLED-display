@@ -88,5 +88,6 @@ Enjoy your shiny new Display :-)
 
 # Compatibility with other HP devices
 
-The design might be compatible with other HP devices, but I only tested it with HP3547, HP3478 and HP66XX tank supplies (works electrically on HP66XX but not mechannically without modification) ,possibly HP3468. Confirmed will not work on HP3552A. 
+The design might be compatible with other HP devices, but I only tested it with HP3547, HP3478 and HP66XX tank supplies (works electrically on HP66XX but not mechannically without modification) ,possibly HP3468. Confirmed will work on HP3852A but requires new PCB to fit. 
+I will post a PCB that works for all situations in early 2026.
 
